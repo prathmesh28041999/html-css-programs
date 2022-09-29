@@ -1,0 +1,72 @@
+  <html>
+    <head>
+        <title>Pseudo Class page</title>
+        <style>
+           /*
+           This is pseudo class example when mouse cursor comes over on p(Paragraph),
+           then that line color turns to blue into mentioned color. (attarcts)
+           :focus, :visited, :disabled, and :active , :hover
+           */
+
+            p:hover {
+                color:blue;
+            }
+            h1:hover {
+                color: red;
+            }
+            input:hover {
+                color: black;
+            }
+
+
+            /* Which style will win the “specificity war”
+
+            Because ID is the most specific selector, 
+            the element will change to red. 
+            */
+            h1 {
+  color: yellow;
+}
+ 
+.author-class {
+  color: pink;
+}
+ 
+#author-id {
+  color: red;
+}
+
+/* Css Visual rules*/
+          h1 {
+            font-family: Garamond; /* use to set font which font*/             
+            font-size: 30px; /* use to set size of text*/
+            font-weight: bold; /* use to control bold or thin appears*/
+            text-align: center; /* No matter how much styling is applied to 
+            text (typeface, size, weight, etc.), the text always appears on the left side of the container*/
+
+            color: black;
+          }
+
+          
+
+          p{
+            font-family: 'Times New Roman';
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+          }
+          
+
+        </style>
+    </head>
+    <body>
+        <label>Enter Name</label>
+        <input type="text" name="name"> 
+        <p class="para">The world is full of fascinating places. Planning the perfect vacation<br>
+            involves packing up, leaving home, and experiencing something new.</p>
+
+            <h1 class="author-class" id="author-id">This is testing of pseudo class</h1>
+    </body>
+  </html>
+
+

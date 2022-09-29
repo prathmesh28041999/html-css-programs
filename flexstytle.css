@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100vh;
+    border: 6px solid rgb(225, 16, 16);
+    display: flex; /*This is displaying flex, when we use this boxes automically div box moves vertivally ---- */
+    flex-direction: row; /*This flex get's all division boxes in a rox*/
+    flex-direction: row-reverse; /* This flex get all division to opposite to row direction */
+
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(9, 9, 236)
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(244, 244, 27);
+}
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(236, 70, 9);
+}

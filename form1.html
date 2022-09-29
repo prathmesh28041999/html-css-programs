@@ -1,0 +1,67 @@
+<h1>Registration Page</h1>
+<form action="/action_page.php" method="get">
+     <!--Label and input-->
+     <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="Phone number">Mobile Number</label>
+    <input type="text" name="mobile number" id="Phone number"><br><br>
+    <!--Label and input end's here-->
+
+    <!--Check box-->
+    <label for="gender">Select Gender</label><br>
+    <input type="checkbox" name="Gender" id="gendermale">
+    <label for="gendermale">Male</label>
+    <input type="checkbox" name="Gender" id="genderfemale">
+    <label for="genderfemale">Female</label>
+    <input type="checkbox" name="other" id="other">
+    <label for="other">other</label><br><br>
+    <!--Check box ends here-->
+    
+    <!--radio button-->
+    <label for="age">18 Years Completed</label>
+    <input type="radio" id="ageyes" name="ageinfo">
+    <label for="ageyes">Yes</label>
+    <input type="radio" id="ageno" name="ageinfo">
+    <label for="ageno">No</label><br><br>
+    <!--Radio button end's here-->
+
+    <!--Dropdown list-->
+    <label for="state">State</label>
+    <select id="state" name="state">
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Karnatka">Karnataka</option>
+        <option value="Delhi">Delhi</option>
+    </select>
+    <label for="city">City</label>
+    <select id="city" name="city">
+        <option value="Kolhapur">Kolhapur</option>
+        <option value="sangli">sangli</option>
+        <option value="satara">satara</option>
+        <option value="karad">Karad</option>
+    </select>
+    <label for="Pincode">Pincode</label>
+    <input type="text" name="pincode" id="pincode"><br><br>
+    <!--Dropdown list ends here-->
+
+    <!--Datalist -->
+        <label for="city">Select your preferred city</label>
+        <input type="text" list="cities" id="city" name="city">
+       
+        <datalist id="cities">
+          <option value="Pune"></option>
+          <option value="Mumbai"></option>
+          <option value="Navi-Mumbai"></option>
+          <option value="Noida"></option>
+          <option value="Banglore"></option>
+          <option value="Hydrabad"></option>  
+        </datalist><br><br>
+      <!--Data list ends here-->
+
+      <!--Submit form-->
+    <input type="submit" value="Submit">
+  </form>
